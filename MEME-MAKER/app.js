@@ -10,11 +10,11 @@ const color = document.getElementById("color");
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
-const CANVAS_WIDTH = 280;
-const CANVAS_HEIGHT = 500;
+const CANVAS_WIDTH = 310;
+const CANVAS_HEIGHT = 520;
 
-canvas.width = 280;
-canvas.height = 500;
+canvas.width = 310;
+canvas.height = 520;
 ctx.lineWidth = lineWidth.value;
 ctx.lineCap = "round";
 
