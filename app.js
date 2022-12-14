@@ -10,11 +10,11 @@ const color = document.getElementById("color");
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
-const CANVAS_WIDTH = 310;
-const CANVAS_HEIGHT = 520;
+const CANVAS_WIDTH = 320;
+const CANVAS_HEIGHT = 450;
 
-canvas.width = 310;
-canvas.height = 520;
+canvas.width = 320;
+canvas.height = 450;
 ctx.lineWidth = lineWidth.value;
 ctx.lineCap = "round";
 
@@ -88,7 +88,7 @@ function onDoubleClick(event){
         ctx.save();
         const text = textInput.value;
         ctx.lineWidth=1;
-        ctx.font = "60px serif";
+        ctx.font = "20px serif";
         ctx.fillText(text, event.offsetX, event.offsetY);
         ctx.restore(); 
     } 
