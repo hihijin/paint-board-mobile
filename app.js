@@ -102,10 +102,10 @@ function onSaveClick(){
 }
 
 canvas.addEventListener("dblclick", onDoubleClick);
-canvas.addEventListener("mousemove", onMove); 
-canvas.addEventListener("mousedown", startPainting);
-canvas.addEventListener("mouseup", cancelPainting);
-document.addEventListener("mouseleave", cancelPainting);
+canvas.addEventListener("pointermove", onMove); 
+canvas.addEventListener("pointerdown", startPainting);
+canvas.addEventListener("pointerup", cancelPainting);
+document.addEventListener("pointerleave", cancelPainting);
 canvas.addEventListener("click", onCanvasClick);
 lineWidth.addEventListener("change", onLineWidthChange);
 color.addEventListener("change", onColorChange);
